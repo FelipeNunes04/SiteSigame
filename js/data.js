@@ -6,5 +6,5 @@ function getAno() {
 	var data = new Date();
 	ano = data.getFullYear();
 	var p = document.getElementById('ano');
-	p.innerHTML = "Copyright &copy; Sigame Sistemas "+ano;
+	p.innerHTML = "Copyright &copy; Siga-me Sistemas 2015 - "+ano;
 }
