@@ -115,7 +115,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.5em;
+        font-size: 4.75em;
     }
 
     header .intro-text .skills {
@@ -484,4 +484,31 @@ hr.star-primary-modify {
 hr.star-primary-modify:after {
     color: #2c3e50;
     background-color: #f5f5f5;
+}
+
+.unslider-arrow{
+    display: block;
+    width: 32px;
+    height: 32px;
+    top: 46%;
+    right: -50px;
+    left: auto;
+    margin-top: -16px;
+    overflow: hidden;
+    background: rgba(0,0,0,.2) no-repeat 50% 50%;
+    background-size: 7px 11px;
+    border-radius: 32px;
+    text-indent: -999em;
+    opacity: .9;
+    transition: opacity .2s;
+}
+
+.unslider-arrow.prev{
+    left: -27px;
+    background-image: url('../img/seta_esquerda.png');
+}
+
+.unslider-arrow.next{
+    right: -27px!important;
+    background-image: url('../img/seta_direita.png');
 }
