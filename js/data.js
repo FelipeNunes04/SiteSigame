@@ -1,8 +1,3 @@
-/*
-	Autor: Felipe Nunes
-	Data: 12/07/2016
-*/
-
 window.onload = function () {
 	getAno();
 }

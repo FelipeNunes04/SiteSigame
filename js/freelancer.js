@@ -10,7 +10,7 @@ $(function() {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
+        }, 1000, 'easeInOutExpo');
         event.preventDefault();
     });
 });
@@ -25,6 +25,16 @@ $(function() {
         $(this).removeClass("floating-label-form-group-with-focus");
     });
 });
+
+$('.slide_show').unslider({
+	animation: 'fade', 
+	autoplay: true, 
+    infinite: true,
+    arrows: {
+        prev: '<a class="unslider-arrow prev btn btn-default"></a>',
+        next: '<a class="unslider-arrow next btn btn-default"></a>'
+    }
+});		
 
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
