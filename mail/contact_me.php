@@ -9,11 +9,10 @@
 	$phone = $_POST['phone'];
 	$message = $_POST['message'];
 		
-	$to = 'fabioluzti@hotmail.com'; 
-	$email_subject = "Enviada pelo formulário de contato do site da siga-me";
+	$to = 'felipennunes@hotmail.com, fabioluzti@hotmail.com'; 
+	$email_subject = "CONTATO do site da siga-me";
 	$email_body = "Detalhes da Mensagem:\n\nNome: $name\n\nEmail: $email_address\n\nTelefone: $phone\n\nMensagem:\n$message";
-	$headers = "De: $email_address\n";
-	//$headers .= "Reply-To: $email_address";	
+	$headers = "MENSAGEM DE CONTATO DA SIGA-ME SISTEMAS\r\n";	
 	mail($to,$email_subject,$email_body,$headers);
 	return true;
 ?>
