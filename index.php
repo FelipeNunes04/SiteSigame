@@ -159,7 +159,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/sivepem.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/sivepem1.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -169,7 +169,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/myclass.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/myclass1.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -359,7 +359,16 @@
                         <div class="modal-body">
                             <h2>SIVEPEM</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/sivepem.png" class="img-responsive img-centered" alt="">
+                            <div class="slide_show" style="min-height: 400px;">
+                                <ul>
+                                    <li><img src="img/portfolio/sivepem1.png" class="img-responsive img-centered" alt="Sistema sivepem1"></li>
+                                    <li><img src="img/portfolio/sivepem2.png" class="img-responsive img-centered" alt="Sistema sivepem2"></li>
+                                    <li><img src="img/portfolio/sivepem3.png" class="img-responsive img-centered" alt="Sistema sivepem3"></li>
+                                    <li><img src="img/portfolio/sivepem4.png" class="img-responsive img-centered" alt="Sistema sivepem4"></li>
+                                    <li><img src="img/portfolio/sivepem5.png" class="img-responsive img-centered" alt="Sistema sivepem5"></li>
+                                    <li><img src="img/portfolio/sivepem6.png" class="img-responsive img-centered" alt="Sistema sivepem6"></li>
+                                </ul>
+                            </div>
                             <p>O <a href="http://felipe.pythonanywhere.com/" target="blank">SIVEPEM - Sistema de Vendas para Pequenos Empreendedores</a> é um sistema completo para a prestação de serviços. Dentre as suas funcionalidades, destacam-se o cadastro de clientes, cadastro de serviços, pagamentos, saldos e extratos.</p>
                             <ul class="list-inline item-details">
                                 <li>Cliente:
@@ -396,7 +405,14 @@
                         <div class="modal-body">
                             <h2>MyClass</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/myclass.png" class="img-responsive img-centered" alt="">
+                            <div class="slide_show" style="min-height: 400px;">
+                                <ul>
+                                    <li><img src="img/portfolio/myclass1.png" class="img-responsive img-centered" alt="Sistema myclass1"></li>
+                                    <li><img src="img/portfolio/myclass2.png" class="img-responsive img-centered" alt="Sistema myclass2"></li>
+                                    <li><img src="img/portfolio/myclass3.png" class="img-responsive img-centered" alt="Sistema myclass3"></li>
+                                    <li><img src="img/portfolio/myclass4.png" class="img-responsive img-centered" alt="Sistema myclass4"></li>
+                                </ul>
+                            </div>
                             <p>A startup MyClass é um serviço que permite ao professor o acompanhamento de seus alunos em sala de aula, nossa empresa desenvolveu o <a href="http://www.myclassapp.com.br" target="blank">Site Oficial</a> da mesma.</p>
                             <ul class="list-inline item-details">
                                 <li>Cliente:
