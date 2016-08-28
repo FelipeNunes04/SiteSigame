@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
+    
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -24,6 +25,8 @@
     
 	<link href="css/unslider.css" rel="stylesheet" type="text/css">
 	<link href="css/unslider-dots.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -103,9 +106,9 @@
             <div class="row">
 				<div class="col-md-12">
 					<div class="row">
-						<div class="col-lg-6">
+						<div class="col-lg-6 text-center">
 							<div class="thumbnail">
-								<img alt="Desenvolvimento Web" src="img/dev2.jpg" />
+								<i class="fa fa-desktop fa-9x margens"></i>
 								<div class="caption">
 									<h4 class="text-center">
 										Desenvolvimento de Sites e Sistemas Web
@@ -118,9 +121,9 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6">
+						<div class="col-lg-6 text-center">
 							<div class="thumbnail">
-								<img alt="Desenvolvimento Mobile" src="img/devmob4.jpg" />
+								<i class="fa fa-mobile fa-10x"></i>
 								<div class="caption">
 									<h4 class="text-center">
 										Desenvolvimento de Aplicativos Mobile
@@ -176,7 +179,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/blogfelipe.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/crypt1.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -249,7 +252,7 @@
                 <div class="col-lg-12 text-center">
                     <h2>Contato</h2>
                     <hr class="star-primary">
-					<p class="text-primary info-dados" alt="números para contato" title="whatsapp / skype / e-mail"><span class="fa fa-whatsapp"></span> (89) 98125-7687  /  <span class="fa fa-skype"></span> (89) 99907-7606  /  <span class="fa fa-envelope"></span><a href="mailto:fabioluzti@hotmail.com"> fabioluzti@hotmail.com</a></p>
+					<p class="text-primary info-dados" alt="números para contato" title="whatsapp / skype / e-mail"><span class="fa fa-whatsapp"></span> (89) 98125-7687  /  <span class="fa fa-skype"></span> (89) 99907-7606  /  <span class="fa fa-envelope"></span><a href="mailto:fabioluzti@hotmail.com"> suporte@sigamesistemas.com.br</a></p>
 
                 </div>
             </div>
@@ -428,17 +431,24 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Blog do Felipe</h2>
+                            <h2>Crypt-fx</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/blogfelipe.png" class="img-responsive img-centered" alt="">
-                            <p>O projeto <a href="http://cursodjango.pythonanywhere.com/" target="blank">Blog do Felipe</a> foi desenvolvido por um dos nossos Freelancers para ser o modelo do sistema que será desenvolvido no minicurso Produção e Deploy de Aplicações com Django e Pythonanywhere do evento InfoTec.</p>
+                            <div class="slide_show" style="min-height: 400px;">
+                                <ul>
+                                    <li><img src="img/portfolio/crypt1.png" class="img-responsive img-centered" alt="Sistema crypt1"></li>
+                                    <li><img src="img/portfolio/crypt2.png" class="img-responsive img-centered" alt="Sistema crypt2"></li>
+                                    <li><img src="img/portfolio/crypt3.png" class="img-responsive img-centered" alt="Sistema crypt3"></li>
+                                    <li><img src="img/portfolio/crypt4.png" class="img-responsive img-centered" alt="Sistema crypt4"></li>
+                                </ul>
+                            </div>
+                            <p>O projeto <a href="http://www.crypt-fx.com" target="blank">Crypt-fx</a> foi desenvolvido por um dos nossos Freelancers para ser uma corretora de bitcoins, onde os clientes podem assinar um plano ou comprar bitcoins diretamente no site.</p>
                             <ul class="list-inline item-details">
                                 <li>Cliente:
-                                    <strong><a href="http://cursodjango.pythonanywhere.com/" target="blank">Felipe Nunes</a>
+                                    <strong><a href="http://www.crypt-fx.com" target="blank">Felipe Nunes</a>
                                     </strong>
                                 </li>
                                 <li>Data:
-                                    <strong><a href="#">Junho de 2016</a>
+                                    <strong><a href="#">Julho de 2016</a>
                                     </strong>
                                 </li>
                                 <li>Serviço:
