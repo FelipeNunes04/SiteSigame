@@ -3,12 +3,7 @@ jQuery(document).ready(function() {
 
    $('#carouselHacked').carousel();
   
-	//this code is for the gmap
-	 var map = new GMaps({
-        el: '#map',
-        lat: -7.0642518,
-        lng: -41.4398383
-      });
+	
 
 
       //this code is for smooth scroll and nav selector

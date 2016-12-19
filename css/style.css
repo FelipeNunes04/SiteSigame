@@ -9,7 +9,7 @@ li{
 a:hover, a:visited, a{
 	text-decoration: none;
 }
-h1, h2{
+h1, h2, h3{
 	text-transform: uppercase;
 	font-weight: bold;
 }
@@ -84,7 +84,9 @@ li a.active{
   margin-top: 4px;
 }
 
-
+#container-service-2{
+	margin-top: 30px;
+}
 
 /*slider area*/
 .slider-row{
@@ -97,7 +99,7 @@ li a.active{
 	background: #000 !important;
 }
 .carousel-caption h1{
-	font-size: 157px;
+	font-size: 100px;
 	color: #fff;
 	text-transform: uppercase;
 	margin-bottom: 0;
@@ -125,6 +127,9 @@ li a.active{
 }
 .carousel-caption button:hover{
 	background: #2a2a2a;
+}
+.carousel-caption button a{
+	color: #fff;
 }
 .carousel-control{
 	width: 5%;
@@ -165,21 +170,21 @@ li a.active{
   margin-top: 50px;
 }
 
-/*about area*/
-.about h2{
+/*service area*/
+.service h2{
 	font-size: 90px;
 	color: #42b3e5;
 	margin-top: 50px;
 }
-.about h4{
+.service h4{
 	font-size: 24px;
 	color: #737373;
 	margin-bottom: 45px;
 }
-.about-img img{
+.service-img img{
 	width: 100%;
 }
-.single-about-detail{
+.single-service-detail{
 	position: relative;
 }
 .pentagon-text h1{
@@ -226,7 +231,7 @@ li a.active{
   border-right: 34px solid transparent;
   border-top: 15px solid #fff;
 }
-.about-details{
+.service-details{
 	background: #2a2a2a;
 	border-top: 2px solid #fff;
 	transition: all .7s ease 0s;
@@ -235,67 +240,67 @@ li a.active{
 	-o-transition: all .7s ease 0s;
 	-ms-transition: all .7s ease 0s;
 }
-.about-details h3{
+.service-details h3{
 	font-size: 36px;
 	color: #fff;
 	margin-top: 0;
 }
-.about-details p{
+.service-details p{
 	font-size: 13px;
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	padding: 0 25px;
 	padding-bottom: 30px;
 }
-.single-about-detail:hover .about-details{
+.single-service-detail:hover .service-details{
 	background: #3a9dca;
 }
-.single-about-detail:hover .pentagon-text h1{
+.single-service-detail:hover .pentagon-text h1{
 	color: #3a9dca;
 }
 
 
-/*service area*/
-.service{
+/*portfolio area*/
+.portfolio{
 	background: url(../img/pattern.jpg);
 	background-repeat: repeat-y;
 	margin-top: 40px;
 }
-.service h2{
+.portfolio h2{
 	font-size: 90px;
 	color: #fff;
 	margin-top: 70px;
 	margin-bottom: 0;
 }
-.service h4{
+.portfolio h4{
 	font-size: 24px;
 	color: #fff;
 	margin-top: 0;
 	margin-bottom: 70px;
 	display: block;
 }
-.single-service{
+.portfolio-service{
 	text-align:center;
 }
-.single-service-img {
+.single-portfolio-img {
   width: 205px;
   height: 125px;
   padding-left:30px;
   position: relative;
 }
-.service-img {
+.portfolio-img {
   width: 205px;
   height: 125px;
   background: #3a9ecb;
   position: relative;
 }
-.single-service h3{
+.portfolio-service h3{
 	margin-top: 10px;
 	color: #fff;
 	padding-bottom: 50px;
 	position:relative;
 }
-.service-img img{
+.portfolio-img img{
 	position: absolute;
 }
 
@@ -449,6 +454,17 @@ li a.active{
 	border:0;
 	margin-bottom: 12px;
 }
+.contact-form select{
+	width: 100%;
+	height: 40px;
+	background: #fff;
+	color: #084a5c;
+	padding: 12px;
+	border:0;
+	margin-bottom: 12px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
 .contact-form textarea{
 	font-family: 'Open Sans', sans-serif;
 	padding:12px;
@@ -555,6 +571,14 @@ li a.active{
   opacity: 1;
 }
 
+.mobile{
+	background: #fff !important;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	justify-content: center;
+}
+
 .carousel-fade .carousel-control {
   	z-index: 2;
     opacity: 1;
@@ -581,6 +605,13 @@ li a.active{
               transform: translate3d(0, 0, 0);
     }
 }
+.error{
+	border:0.1px solid #FF0000 !important;
+}
+
+.margin-top{
+	margin-top: 10px;
+}
 
 /* just for demo purpose */
     html,
@@ -603,7 +634,7 @@ responsive area
 	  padding: 14px 12px;
 	}
 	.carousel-caption h1 {
-  		font-size: 120px;
+  		font-size: 80px;
   	}
   	.carousel-caption p {
   		font-size: 32px;
