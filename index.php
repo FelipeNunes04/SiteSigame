@@ -111,37 +111,41 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-							<div class="single-service-detail clearfix">
-								<div class="service-img">
-									<img src="img/service1.jpg" alt="">
-								</div>
-
-								<div class="service-details">
-									<div class="pentagon-text">
-										<h1>W</h1>
+							<a href="#contact">
+								<div class="single-service-detail clearfix">
+									<div class="service-img">
+										<img src="img/service1.jpg" alt="">
 									</div>
 
-									<h3>Desenvolvimento de Sites e Sistemas</h3>
-									<p class="text-justify">Quer colocar sua marca na internet? Quer controlar toda a dinâmica dos processos da sua empresa sem sair de casa? Então venha para a Siga-me e descubra o que as nossas soluções sob demanda tem a oferecer.</p>
+									<div class="service-details">
+										<div class="pentagon-text">
+											<h1>W</h1>
+										</div>
+
+										<h3>Desenvolvimento de Sites e Sistemas</h3>
+										<p class="text-justify">Quer colocar sua marca na internet? Quer controlar toda a dinâmica dos processos da sua empresa sem sair de casa? Então venha para a Siga-me e descubra o que as nossas soluções sob demanda tem a oferecer.</p>
+									</div>
 								</div>
-							</div>
+							</a>
 						</div>
 
 						<div class="col-md-6">
-							<div class="single-service-detail">
-								<div class="service-img">
-									<img class="img-responsive" src="img/service2.jpg" alt="">
-								</div>
-
-								<div class="service-details">
-									<div class="pentagon-text">
-										<h1>M</h1>
+							<a href="#contact">
+								<div class="single-service-detail">
+									<div class="service-img">
+										<img class="img-responsive" src="img/service2.jpg" alt="">
 									</div>
 
-									<h3>Desenvolvimento de Aplicativos Mobile</h3>
-									<p class="text-justify">Que tal ter todo o controle gerencial da sua empresa na tela do seu celular a qualquer hora e lugar? Nosso time tem as melhores técnicas e ferramentas para desenvolvimento de aplicativos prontas para tornar o seu projeto realidade.</p>
+									<div class="service-details">
+										<div class="pentagon-text">
+											<h1>M</h1>
+										</div>
+
+										<h3>Desenvolvimento de Aplicativos Mobile</h3>
+										<p class="text-justify">Que tal ter todo o controle gerencial da sua empresa na tela do seu celular a qualquer hora e lugar? Nosso time tem as melhores técnicas e ferramentas para desenvolvimento de aplicativos prontas para tornar o seu projeto realidade.</p>
+									</div>
 								</div>
-							</div>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -149,37 +153,41 @@
 				<div class="container" id="container-service-2">
 					<div class="row">
 						<div class="col-md-6">
-							<div class="single-service-detail clearfix">
-								<div class="service-img">
-									<img src="img/service3.jpg" alt="">
-								</div>
-
-								<div class="service-details">
-									<div class="pentagon-text">
-										<h1>A</h1>
+							<a href="#contact">
+								<div class="single-service-detail clearfix">
+									<div class="service-img">
+										<img src="img/service3.jpg" alt="">
 									</div>
 
-									<h3>Auditoria de Sistemas</h3>
-									<p class="text-justify">Gostaria de analisar a segurança do seu sistema? Deixar seu site nas primeiras página do Google? Contate-nos e saiba como funciona o serviço de auditoria da Siga-me.</p>
+									<div class="service-details">
+										<div class="pentagon-text">
+											<h1>A</h1>
+										</div>
+
+										<h3>Auditoria de Sistemas</h3>
+										<p class="text-justify">Gostaria de analisar a segurança do seu sistema? Deixar seu site nas primeiras página do Google? Contate-nos e saiba como funciona o serviço de auditoria da Siga-me.</p>
+									</div>
 								</div>
-							</div>
+							</a>
 						</div>
 
 						<div class="col-md-6">
-							<div class="single-service-detail">
-								<div class="service-img">
-									<img class="img-responsive" src="img/service4.jpg" alt="">
-								</div>
-
-								<div class="service-details">
-									<div class="pentagon-text">
-										<h1>S</h1>
+							<a href="#contact">
+								<div class="single-service-detail">
+									<div class="service-img">
+										<img class="img-responsive" src="img/service4.jpg" alt="">
 									</div>
 
-									<h3>Suporte em Geral</h3>
-									<p class="text-justify">Seu sistema possui bugs? Gostaria de fazer pequenas alterações? Desenvolver novas funcionalidades no seu sistema? Contate-nos e saiba como funciona o serviço de suporte da Siga-me.</p>
+									<div class="service-details">
+										<div class="pentagon-text">
+											<h1>S</h1>
+										</div>
+
+										<h3>Suporte em Geral</h3>
+										<p class="text-justify">Seu sistema possui bugs? Gostaria de fazer pequenas alterações? Desenvolver novas funcionalidades no seu sistema? Contate-nos e saiba como funciona o serviço de suporte da Siga-me.</p>
+									</div>
 								</div>
-							</div>
+							</a>
 						</div>
 					</div>
 				</div>
